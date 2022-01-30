@@ -34,28 +34,32 @@ our implementation, and its success can be found in the accompanying Jupyter not
 #### Secure Chat
 ![ChatArch](jupyter_notebook/SoftwareArch_SecureChat.png]
 
-Repository Organization:
+### Repository Organization:
 - README.md [here]
+
 Client scripts
 - client.py
 - encrypt_decrypt.py
+
 QKD scripts
 - quantum_computer.py
 - key_generation.py
 - tests/
--Server backend
+
+Server backend
 - flaskapp.py
 - utils.py
 - flaskapp.wsgi
--Server frontend
+
+Server frontend
 - static/
 - templates/
 
 
-Personal Experience at MIT iQuHACK 2022: 
+### Personal Experience at MIT iQuHACK 2022: 
 - We learned a ton about web development and servers which none of us had ever worked with before. We also got to use some quantum computing in a very practical application which was rewarding and exciting. Overall, we had a lot of fun, even with the hard work and late night. We are excited to submit our project, Keytanglement!!
 
-Citations:
+### Citations:
 - Quantum Key Distribution using Bell States
   - D. Song and D. Chen, "Quantum Key Distribution Based on Random Grouping Bell State Measurement," in IEEE Communications Letters, vol. 24, no. 7, pp. 1496-1499, July 2020, doi: 10.1109/LCOMM.2020.2988380.
  - Tokyochat 
