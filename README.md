@@ -6,6 +6,7 @@
 - Project at: [keytanglement.live](keytanglement.live)
 - iQuHACK presentation [slides](https://docs.google.com/presentation/d/1JUC_5XKEcqWcx8vDHGJmTW_9klX04Cl1-xuXPzgNxpI/edit?usp=sharing)
 - Jupyter Notebook in repo [link](https://github.com/JRice15/keytanglement/blob/main/jupyter_notebook/)
+- Original repo - for all files/commits(https://github.com/JRice15/keytanglement)
 
 
 Contributors 
@@ -35,7 +36,21 @@ our implementation, and its success can be found in the accompanying Jupyter not
 
 Repository Organization:
 - README.md [here]
-- [UPDATE]
+Client scripts
+- client.py
+- encrypt_decrypt.py
+QKD scripts
+- quantum_computer.py
+- key_generation.py
+- tests/
+-Server backend
+- flaskapp.py
+- utils.py
+- flaskapp.wsgi
+-Server frontend
+- static/
+- templates/
+
 
 Personal Experience at MIT iQuHACK 2022: 
 - We learned a ton about web development and servers which none of us had ever worked with before. We also got to use some quantum computing in a very practical application which was rewarding and exciting. Overall, we had a lot of fun, even with the hard work and late night. We are excited to submit our project, Keytanglement!!
